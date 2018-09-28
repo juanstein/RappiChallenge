@@ -1,0 +1,5 @@
+Para realizar la aplicación me base en el modelo vista controlador. Tenemos 5 directorios en la app: model, view, controller, dao y utils. En model definimos a las clases de los objetos que vamos a utilizar. En view se encuentran las activities, los fragments, adapters y los elementos de las vistas que interactúan con el user. En dao tenemos los métodos para conectarnos y obtener nuestros objetos, en este caso películas y en controller conectamos la view con el dao y verificamos el estado de la conexión para ver si los tomamos de caché o los descargamos. 
+
+El principio de responsabilidad única consiste en, como dice su nombre, que cada clase tenga una sola responsabilidad y cumpla con un determinado rol para así evitar que, a la hora del cambio, este sea muy complicado de efectuar. Si se usa este principio el código es mucho más sencillo de escalar y se evitan posibles Bugs. 
+
+Según mi opinión un código limpio es un código fácil de leer y de entender. Cuanto más corto y sencillo mejor. En este caso más no es mejor si no que lo contrario.
